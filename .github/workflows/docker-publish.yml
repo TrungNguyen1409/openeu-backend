@@ -11,7 +11,7 @@ jobs:
       packages: write  # 👈 needed to push to GHCR
 
     env:
-      IMAGE_NAME: ghcr.io/TrungNguyen1409/openeu-backend-base-image
+      IMAGE_NAME: ghcr.io/trungnguyen1409/openeu-backend-base-image
 
     steps:
       - name: Checkout repo
